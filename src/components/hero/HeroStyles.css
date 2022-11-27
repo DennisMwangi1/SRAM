@@ -4,7 +4,9 @@
     color: #fff;
     position: relative;
 }
-
+.carousel-item h1{
+    color: #fff;
+}
 .overlay {
     background-color: rgba(0, 0, 0, 0.1);
     position: absolute;
