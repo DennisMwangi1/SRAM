@@ -1,0 +1,11 @@
+class CreatePdfFiles < ActiveRecord::Migration[7.0]
+  def change
+    create_table :pdf_files do |t|
+      t.string :name
+      t.binary :file_data
+      t.references :user, null: false, foreign_key: true
+
+      t.timestamps
+    end
+  end
+end
