@@ -9,8 +9,10 @@ function Footer() {
             <div className="container">
                 <div className="top">
                 <div className="navItem">
-            <img src='https://karma.co.ke/wp-content/uploads/2022/03/Karma-Website-Logo.png' alt="" width={250} height={100} />
-            
+            <div className='flex '>
+                    <img className='ml-2' src='https://karma.co.ke/wp-content/uploads/2022/03/KARMA-Favicon.png' alt="" width={100}  />
+            <h1 className='pt-8 font-black text-5xl'>SARM</h1>
+                </div>
             </div>
        
             <p className='nai'>Nairobi, Kenya</p>
@@ -20,7 +22,7 @@ function Footer() {
                         
                     </div>
                 </div>
-                 <p className='copyright' >Copyright © 2022 KARMA. All Rights Reserved. Designed by Fix Kenya Limited.</p>
+                 <p className='copyright' >Copyright © 2022 SARM. All Rights Reserved. Designed by Fix Kenya Limited.</p>
 
                     
                 

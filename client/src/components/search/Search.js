@@ -7,7 +7,7 @@ function Search() {
  
   return (
           <section className="mb-8">
-                <h1 className="text-center">OBJECTIVES OF KARMA</h1>
+                <h1 className="text-center">OBJECTIVES OF SARM</h1>
             <div className="flex w-9/12 m-auto">
               <img
                 className=""

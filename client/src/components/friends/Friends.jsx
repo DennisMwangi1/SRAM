@@ -105,7 +105,7 @@ const Friends = ({ currentUser, friends }) => {
               <p>No friend selected!</p>
           )}
         </div>
-        <div className="p-4 m-auto">
+        {selectedFriend? <div className="p-4 m-auto">
           <input
           className="rounded-md p-2"
             value={newMessage}
@@ -122,7 +122,7 @@ const Friends = ({ currentUser, friends }) => {
           >
             Send
           </button>
-        </div>
+        </div>:<></>}
       </div>
     </div>
     </>

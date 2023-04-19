@@ -17,12 +17,16 @@ function Navbar({openModal}) {
             </div>
             </div>
             <ul className="flex justify-between place-items-center">
-            <img className='ml-2' src='https://karma.co.ke/wp-content/uploads/2022/03/Karma-Website-Logo.png' alt="" width={300} height={100} />
+                <div className='flex '>
+                    <img className='ml-2' src='https://karma.co.ke/wp-content/uploads/2022/03/KARMA-Favicon.png' alt="" width={100}  />
+            <h1 className='pt-8 font-black text-5xl'>SARM</h1>
+                </div>
+            
                 <div className='grid grid-cols-5'>
-                <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='destinations' smooth={true} duration={500} ><li>about</li></Link>
-                <Link to='carousel' smooth={true} duration={500} ><li>objectives</li></Link>
-                <Link to='views' smooth={true} duration={500} ><li>contact us</li></Link>
+                <Link className='cursor-pointer' to='home' smooth={true} duration={500} ><li>Home</li></Link>
+                <Link className='cursor-pointer' to='destinations' smooth={true} duration={500} ><li>about</li></Link>
+                <Link className='cursor-pointer'  to='carousel' smooth={true} duration={500} ><li>objectives</li></Link>
+                <Link className='cursor-pointer' to='views' smooth={true} duration={500} ><li>contact us</li></Link>
                 <span className=''><FadeMenu/></span>
                 </div>
             </ul>
